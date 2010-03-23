@@ -1,0 +1,46 @@
+#canvas {
+  border: 1px solid;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  width: 600px; 
+  background: green;
+  }
+ 
+#ship {
+	position: absolute;
+	height: 70px;
+	width: 60px; 
+}
+
+#ship.left {
+	background-image: url('assets/figure_left.png');
+}
+
+#ship.right {
+	background-image: url('assets/figure_right.png');
+}
+
+.jump { 
+	background-position: -60px 0;
+}
+.crouch { 
+	background-position: -120px 0;
+}
+
+.dead {
+	background-position: -180px 0;
+}
+.walking { 
+	background-position: -60px 0;
+}
+.nothing { 
+	background-position: 0 0;
+}
+.punch_one {
+	background-position: -240px 0;
+}
+
+.punch_two {
+	background-position: -300px 0;
+}
